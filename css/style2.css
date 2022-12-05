@@ -1,9 +1,36 @@
-uyguyiutf {
-  display: flex;
-  padding: 0; }
+header .soc_header {
+  list-style: none;
+  align-items: flex-start; }
+  header .soc_header li:first-of-type {
+    margin-right: 15px;
+    padding-top: 8px; }
+  header .soc_header li:last-of-type {
+    margin-left: 7px; }
+  header .soc_header li:nth-child(2) {
+    padding-top: 2px; }
+header .navbar-brand {
+  position: absolute;
+  left: 50%;
+  margin-left: -40px; }
 
-.display {
-  margin-bottom: 10px;
-  margin-right: 25px; }
+.container {
+  max-width: 1064px; }
+
+.main_banner {
+  background: #F0EFEB;
+  padding: 90px 0; }
+  .main_banner h1 {
+    margin-bottom: 42px; }
+  .main_banner p {
+    margin-bottom: 26px; }
+
+.banner_custom_position {
+  position: relative;
+  right: -30px; }
+  @media screen and (max-width: 768px) {
+    .banner_custom_position {
+      right: 0;
+      width: 100%;
+      display: block; } }
 
 /*# sourceMappingURL=style2.css.map */
