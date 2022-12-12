@@ -98,31 +98,37 @@ header {
     text-align: center;
     color: #000000;
   }
-  div{
+  .owl-carousel{
     //margin-bottom: 60px;
-    .card{
+    .card {
       margin-top: 52px;
       padding-bottom: 59px;
       border: none;
-      img{
+
+      img {
+        //max-width: 320px;
+        display: inline-block;
 
       }
-      .card-body{
-        h5{
+
+      .card-body {
+        h5 {
           font: 17px/20px $main_font;
           font-style: normal;
           font-weight: 700;
           text-align: center;
           color: #000000;
         }
-        p{
+
+        p {
           font: 17px/20px $main_font;
           font-style: normal;
           font-weight: 400;
           text-align: center;
           color: #000000;
         }
-        a{
+
+        a {
           font: 17px/20px $main_font;
           font-style: normal;
           font-weight: 700;
@@ -131,6 +137,10 @@ header {
           color: #000000;
         }
       }
+    }
+    .owl-stage{
+      display: flex;
+      align-items: center;
     }
   }
 }
@@ -377,6 +387,8 @@ header {
   }
   .form-group {
     margin-bottom: 18px;
+
+
   }
 
   .btn-dark{
@@ -392,25 +404,93 @@ header {
 
 footer{
   background-color: black;
-  height: 291px;
+  min-height: 291px;
   padding: 51px 0 16px 0;
-  .soc_footer{
+  a{
+    color: white;
+
+  }
+  p{
+    font: 400 14px/23px $main_font;
+    font-style: normal;
+    padding-top: 20px;
+    color: white;
+  }
+  .soc_footer {
     list-style: none;
-    align-items: flex-start;
+    display: flex;
+    padding-left: 0;
+    padding-top: 36px;
+
     li {
-      &:first-of-type {
-        margin-right: 15px;
-        padding-top: 8px;
-      }
+      margin-left: 14px;
+    }
+  }
+  .about {
+    list-style: none;
+    color: white;
+    padding-left: 0px;
+    @include max-screen(768px) {
+      padding-left: 25px;
+    }
+  }
 
-      &:last-of-type {
-        margin-left: 7px;
-      }
+    li{
+      &:first-of-type{
+        text-transform: uppercase;
+        padding-bottom: 36px;
+        font: 400 14px/23px $main_font;
+        font-style: normal;
+              }
+      &:nth-child(2){
+        font: 400 14px/21px $main_font;
+        font-style: normal;
+        padding-bottom: 12px;
 
-      &:nth-child(2) {
-        padding-top: 2px;
+      }
+      &:nth-child(3){
+        font: 400 14px/21px $main_font;
+        font-style: normal;
+        padding-bottom: 12px;
+      }
+      &:nth-child(4){
+        font: 400 14px/21px $main_font;
+        font-style: normal;
+        padding-bottom: 12px;
+      }
+      &:nth-child(5){
+        font: 400 14px/21px $main_font;
+        font-style: normal;
+        padding-bottom: 12px;
       }
     }
   }
 
-}
+  .contact{
+    list-style: none;
+    color: white;
+    padding-left: 0;
+    li {
+      &:first-of-type {
+        text-transform: uppercase;
+        padding-bottom: 36px;
+        font: 400 14px/23px $main_font;
+        font-style: normal;
+        text-decoration: none;
+      }
+
+      &:nth-child(2) {
+        font: 400 14px/21px $main_font;
+        font-style: normal;
+        padding-bottom: 12px;
+      }
+
+      &:nth-child(3) {
+        font: 400 14px/21px $main_font;
+        font-style: normal;
+        padding-bottom: 12px;
+      }
+    }
+  }
+
+

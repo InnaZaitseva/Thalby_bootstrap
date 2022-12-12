@@ -10,8 +10,8 @@ $('.owl-carousel').owlCarousel({
             items:1
         },
 
-        992:{
-            items:2
+        768:{
+            items:3
         }
     }
 });
