@@ -1,3 +1,8 @@
+header .navbar-nav .nav-link {
+  font: 16px/26px "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  color: #1C1B1B; }
 header .soc_header {
   list-style: none;
   align-items: flex-start; }
@@ -20,17 +25,260 @@ header .navbar-brand {
   background: #F0EFEB;
   padding: 90px 0; }
   .main_banner h1 {
-    margin-bottom: 42px; }
+    margin-bottom: 42px;
+    font: 60px/70px "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: #000000; }
   .main_banner p {
-    margin-bottom: 26px; }
+    margin-bottom: 26px;
+    font: 24px/28px "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #000000; }
+  .main_banner a {
+    border-radius: 100px;
+    font: 17px/20px "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding: 7px 23px 9px 23px; }
 
 .banner_custom_position {
   position: relative;
   right: -30px; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 992px) {
     .banner_custom_position {
       right: 0;
       width: 100%;
       display: block; } }
+  @media screen and (max-width: 1064px) {
+    .banner_custom_position {
+      width: 96%; } }
+
+.best_sellers h2 {
+  font: 36px/42px "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  padding-top: 60px; }
+.best_sellers p {
+  font: 20px/23px "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  color: #000000; }
+.best_sellers div .card {
+  margin-top: 52px;
+  padding-bottom: 59px;
+  border: none; }
+  .best_sellers div .card .card-body h5 {
+    font: 17px/20px "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    color: #000000; }
+  .best_sellers div .card .card-body p {
+    font: 17px/20px "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    color: #000000; }
+  .best_sellers div .card .card-body a {
+    font: 17px/20px "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #000000; }
+
+.portfolio1 {
+  padding-top: 76px;
+  padding-bottom: 51px;
+  background-color: #CCCCCC4D; }
+  .portfolio1 img {
+    padding-bottom: 15px; }
+    @media screen and (max-width: 428px) {
+      .portfolio1 img {
+        width: 90%; } }
+  .portfolio1 h4 {
+    font: 700 36px/42px "Roboto", sans-serif;
+    font-style: normal;
+    color: #000000;
+    margin-bottom: 31px; }
+    @media screen and (max-width: 768px) {
+      .portfolio1 h4 {
+        font: 700 28px/34px "Roboto", sans-serif; } }
+  .portfolio1 p {
+    font: 400 36px/42px "Roboto", sans-serif;
+    font-style: normal;
+    color: #000000;
+    margin-bottom: 40px; }
+    @media screen and (max-width: 768px) {
+      .portfolio1 p {
+        font: 400 28px/34px "Roboto", sans-serif; } }
+  .portfolio1 a {
+    font: 17px/20px "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration-line: underline;
+    color: #000000; }
+
+.portfolio2 {
+  padding-top: 76px;
+  padding-bottom: 51px;
+  background-color: #CCCCCC99; }
+  .portfolio2 h4 {
+    font: 36px/42px "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 31px; }
+  .portfolio2 p {
+    font: 36px/42px "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 40px; }
+  .portfolio2 .col-md-6 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 0px; }
+    @media screen and (max-width: 428px) {
+      .portfolio2 .col-md-6 img {
+        width: 90%;
+        padding-right: 0; } }
+  .portfolio2 a {
+    font: 17px/20px "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration-line: underline;
+    color: #000000;
+    margin-top: 15px; }
+
+.portfolio3 {
+  padding-top: 76px;
+  padding-bottom: 51px;
+  background-color: #CCCCCC4D; }
+  .portfolio3 img {
+    padding-bottom: 15px; }
+    @media screen and (max-width: 428px) {
+      .portfolio3 img {
+        width: 90%;
+        text-align: left; } }
+  .portfolio3 h4 {
+    font: 36px/42px "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 31px; }
+  .portfolio3 p {
+    font: 36px/42px "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 40px; }
+  .portfolio3 a {
+    font: 17px/20px "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration-line: underline;
+    color: #000000; }
+
+.features h3 {
+  margin-top: 190px;
+  margin-bottom: 69px; }
+.features .col-md-4 {
+  margin-bottom: 111px; }
+  .features .col-md-4:before {
+    content: "";
+    display: block;
+    margin: auto;
+    background-color: #21F7EC;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-bottom: 26px; }
+  .features .col-md-4:nth-child(2):before {
+    background-color: #33D3BC; }
+  .features .col-md-4:nth-child(3):before {
+    background-color: #18A5C6; }
+  .features .col-md-4:nth-child(4):before {
+    background-color: #D38F62; }
+  .features .col-md-4:nth-child(5):before {
+    background-color: #F94C43; }
+  .features .col-md-4:nth-child(6):before {
+    background-color: #D399FF; }
+
+.voices h3 {
+  margin-bottom: 290px;
+  text-align: center;
+  font: 36px/42px "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  color: #000000; }
+.voices .grey_bg {
+  height: 480px;
+  background-color: #F0F0F0; }
+  @media screen and (max-width: 767px) {
+    .voices .grey_bg {
+      height: auto; } }
+  .voices .grey_bg article {
+    position: relative;
+    top: -188px; }
+    .voices .grey_bg article h5 {
+      font: 22px/26px "Roboto", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 26px;
+      text-align: center;
+      letter-spacing: 0.6px;
+      color: #000000;
+      margin-bottom: 34px; }
+    .voices .grey_bg article p {
+      font: 19px/22px "Roboto", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      text-align: center;
+      color: #000000;
+      margin-bottom: 44px; }
+    .voices .grey_bg article a {
+      font: 18px/21px "Roboto", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      text-align: center;
+      text-decoration-line: underline;
+      color: #000000;
+      margin-bottom: 52px; }
+    .voices .grey_bg article .card-img-top {
+      width: 288px; }
+      @media screen and (max-width: 992px) {
+        .voices .grey_bg article .card-img-top {
+          width: 100%; } }
+
+.form h3 {
+  font: 36px/42px "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  padding-top: 79px; }
+.form p {
+  font: 17px/20px "Roboto", sans-serif;
+  font-style: normal;
+  line-height: 20px;
+  text-align: center;
+  color: #000000; }
+.form .btn-dark {
+  border-radius: 100px;
+  font: 14px/16px "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  color: #FFFFFF; }
 
 /*# sourceMappingURL=style2.css.map */
